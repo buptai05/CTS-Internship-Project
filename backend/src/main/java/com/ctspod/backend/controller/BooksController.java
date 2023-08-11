@@ -63,7 +63,7 @@ public class BooksController {
         
     }
 	
-	@GetMapping("/getbooks/{bookIds}")
+	@GetMapping("/getbooks/{bookIds}")                     //http://localhost:4000/api/getbooks/1,2,12,
     public List<Book> getBooksByIds(@PathVariable String bookIds)
     {   List<String> ids = Arrays.asList(bookIds.split(","));
            
