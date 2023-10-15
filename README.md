@@ -1,2 +1,2 @@
-# Online-Book-Store
-Cognizant Project
+# Online-Book-Store Management
+Cognizant Internship Project
